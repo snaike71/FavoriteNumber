@@ -1,0 +1,35 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\snaik\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @openzeppelin/contracts
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python311\Scripts\;C:\Python311\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Oculus\Support\oculus-runtime;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\snaik\Desktop\PhantomJS;C:\Program Files\Git\cmd;C:\Users\snaik\AppData\Local\Microsoft\WindowsApps;C:\Users\snaik\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\snaik\AppData\Roaming\npm;C:\Program Files\Java\jdk-15.0.2\bin;C:\Program Files\Java\javafx-sdk-19\lib;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\snaik\Desktop\next.js\nextTest\FavoriteNumber\backEnd\node_modules\secp256k1\prebuilds\win32-x64\node.napi.node'
+
+npm manifest: 
+  {
+    "name": "hardhat-project",
+    "devDependencies": {
+      "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+      "hardhat": "^2.13.0"
+    },
+    "dependencies": {
+      "@openzeppelin/contracts": "^4.8.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

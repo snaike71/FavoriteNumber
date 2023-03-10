@@ -7,8 +7,8 @@ async function main() {
   const lockedAmount = ethers.utils.parseEther("0.001");
 
   const FavoriteNumber = await ethers.getContractFactory("FavoriteNumber");
-  const favoriteNumber = await FavoriteNumber.deploy();
 
+  const favoriteNumber = await FavoriteNumber.deploy();
   await favoriteNumber.deployed();
 
   console.log(

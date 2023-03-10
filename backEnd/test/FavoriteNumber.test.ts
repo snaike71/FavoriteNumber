@@ -7,6 +7,7 @@ import { ethers } from "hardhat";
 describe("FavoriteNubmer",function(){
   async function deployFavoriteNumberFixture() {
     const FavoriteNumber = await ethers.getContractFactory("FavoriteNumber")
+    const Owner = await ethers.
     const favoriteNumber = await FavoriteNumber.deploy();
 
     
@@ -35,5 +36,6 @@ describe("FavoriteNubmer",function(){
 
 
   })
+  
      
 });
